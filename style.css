@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Mulish';
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(Background\ Pattern.jpg);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#ffff;
+    padding:25px 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+-moz-box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+
+}
+.container .title{
+   
+    font-size: 15px;
+    font-weight: 500;
+    position:relative;
+
+}
+.container .title::before{
+    content: '';
+    position:absolute;
+    height:3px ;
+    weight: 30px;
+    background: linear-gradient(0deg, #333333, #333333),
+    linear-gradient(0deg, #757575, #757575);
+    
+    
+}
+.container form user-details{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #333333;
+
+}
+.container form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: cal(100% /2-20px);
+}
+.container form .user-details .input-box .details{
+    display: block;
+   font-weight: 500; 
+   margin-bottom: 5px;
+
+}
+.container form .user-details .input-box input{
+height: 45px;
+width: 100%;
+outline: none;
+border-radius: 5px;
+border: 1px solid #333333;
+padding-left: 15px;
+font-size: 16px;
+border-bottom-width:2px;
+transition: all 0.3s ease;
+}
+
+
+
+
+#sign-up{
+    height: 45px;
+     width: 100%;
+     outline: none;
+     color: #ffff;
+     border: none;
+     
+     border-radius: 5px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+
+
+}
+.signup-link{
+    padding-top:550px;
+    text-align:justify;
+    position:absolute;
+}

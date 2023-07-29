@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Mulish';
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(Background\ Pattern\ 2.jpg);
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background:#ffff;
+    padding:25px 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+-moz-box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+box-shadow: 10px 3px 34px -7px rgba(232,232,232,1);
+
+}
+h2{
+    text-align: center;
+
+}
+.profile{
+    
+}
+.info{
+   align-items:normal;
+}
+
+
+#log-out{
+    height: 45px;
+     width: 100%;
+     outline: none;
+     color: #ffff;
+     border: none;
+     
+     border-radius: 5px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+}

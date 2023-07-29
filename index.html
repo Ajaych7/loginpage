@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Welcome back! 👋</div>
+        <h1>Sign up to your account</h1>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Your name</span>
+                    <input type="text" placeholder="Enter your name" id="name-inp">
+                </div>
+                <div class="input-box">
+                    <span class="details">Your email</span>
+                    <input type="text" placeholder="Enter your email" id="email-inp">
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter Password"  id="pass-inp">
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your Password"  id="cnf-pass-inp">
+                </div>
+                <button type="submit" id="sign-up">signup</button>
+                <!-- <button type="submit" id="sign-up">CONTINUE</button> -->
+
+                <div class="error-message" id="err-msg" style="display:none;">
+                    Error: All fields are mandatory!
+                  </div>
+             
+
+            </div>
+        </form>
+        </div>
+        <div class="signup-link">
+            Don't have an account? <a href="index.html">Sign up</a>
+          </div>
+    </div>
+    
+
+    <script src="co.js"></script>
+</body>
+</html>
